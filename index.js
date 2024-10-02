@@ -1,5 +1,5 @@
 'use strict';
 
-const except = require('bindings')('addon');
+const addon = require('bindings')('addon');
 
 console.log(addon.echo('Hello, World!'));
